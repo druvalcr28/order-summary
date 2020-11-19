@@ -1,0 +1,1 @@
+export const APPLY_PROMOCODE = 'APPLY_PROMOCODE'

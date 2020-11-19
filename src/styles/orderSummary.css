@@ -1,0 +1,85 @@
+.orderSummary__card{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.orderHeader{
+    font-size: 15px;
+}
+
+.orderHeader__infoLeft{
+    padding-top: 10px;
+}
+
+.orderHeader__price{
+    font-weight: bold;
+}
+
+.orderHeader__estTotal h1{
+    font-size: 30px;
+}
+
+.buttonText{
+    font-size: 13px;
+}
+
+.orderItemDetails__price{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+.orderItemDetails__card{
+    background-color: #eff3f7;
+}
+
+.orderItemDetails__cardHeader{
+    padding-top: 10px;
+}
+
+.orderItemDetails__image img{
+    height: 100px;
+    width: 100px;
+    padding-left: 30px;
+}
+
+.orderItemDetails__description{
+    font-size: 15px;
+}
+
+.promoCode__form{
+    background-color: #eff3f7;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__error{
+    color: red;
+    font-size: 13px;
+}
+
+.form__success{
+    color: green;
+    font-size: 13px;
+}
+
+.promoCode__formCode{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.promoCode__button div{
+    font-size: 13px;
+}
+
+.promoCode__button:disabled{
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
